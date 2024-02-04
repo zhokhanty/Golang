@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    {{define "title"}}Home{{end}}
+    <style>
+        body {
+            background-color: aquamarine;
+            font-family:'Times New Roman', Times, serif
+        }
+        h3 {
+            font-family: 'Courier New', Courier, monospace;
+            color:blueviolet;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the football team!</h1>
+    </header>
+    {{template "main" .}}
+</body>
+</html>
